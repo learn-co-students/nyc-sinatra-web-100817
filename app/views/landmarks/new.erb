@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Create A New Landmark</title>
+  </head>
+  <body>
+    <h1>Create A New Landmark</h1>
+    <form action="/landmarks" method="post">
+      <label>
+        Name: <input type="text" name="landmark[name]" id="landmark_name">
+      </label>
+      <br><br>
+      <label>
+        Year Completed: <input type="number" name="landmark[year_completed]" id="landmark_year_completed">
+      </label>
+
+      <br><br>
+      <input type="submit" value="Create New Landmark">
+    </form>
+  </body>
+</html>
